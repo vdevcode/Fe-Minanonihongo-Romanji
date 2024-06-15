@@ -1,5 +1,4 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <p>{{ formatNumber(1234) }}</p>
 </template>
+  
