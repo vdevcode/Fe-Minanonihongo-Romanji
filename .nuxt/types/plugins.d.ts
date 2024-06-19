@@ -18,7 +18,6 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/chunk-reload.client").default> &
   InjectionType<typeof import("../../plugins/i18n").default> &
   InjectionType<typeof import("../../plugins/mitt").default> &
-  InjectionType<typeof import("../../plugins/vee-validate").default> &
   InjectionType<typeof import("../../plugins/vue-datepicker").default> &
   InjectionType<typeof import("../../plugins/vue-multiselect").default> &
   InjectionType<typeof import("../../plugins/vue-toastification").default>
