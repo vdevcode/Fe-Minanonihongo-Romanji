@@ -251,6 +251,8 @@ declare module 'nuxt/schema' {
 
       LESS: string,
 
+      YARN_WRAP_OUTPUT: string,
+
       npm_lifecycle_script: string,
 
       npm_package_lint_staged____css_scss_sass_html_vue_: string,
