@@ -49,8 +49,8 @@
       "@unhead/vue": [
         "../node_modules/@unhead/vue"
       ],
-      "@nuxt/devtools": [
-        "../node_modules/@nuxt/devtools"
+      "vue": [
+        "../node_modules/vue"
       ],
       "@vue/runtime-core": [
         "../node_modules/@vue/runtime-core"
@@ -60,6 +60,9 @@
       ],
       "@vue/runtime-dom": [
         "../node_modules/@vue/runtime-dom"
+      ],
+      "vue-router": [
+        "../node_modules/vue-router"
       ],
       "@nuxt/schema": [
         "../node_modules/@nuxt/schema"
@@ -85,16 +88,24 @@
       "assets": [
         "../assets"
       ],
+      "assets/*": [
+        "../assets/*"
+      ],
       "public": [
         "../public"
       ],
       "public/*": [
         "../public/*"
+      ],
+      "pinia": [
+        "../node_modules/pinia/dist/pinia"
       ]
     }
   },
   "include": [
     "./types/nitro-nuxt.d.ts",
+    "../node_modules/@pinia/nuxt/runtime/server",
+    "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "./types/nitro.d.ts",

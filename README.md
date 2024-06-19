@@ -1,6 +1,13 @@
-# Nuxt 3 Minimal Starter
-
+# ADIL WALLET ADMIN
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## Environment Requirement
+
+> Operating System: `Ubuntu v20.04`
+>
+> NodeJS: `v18.12.0`
+>
+> NPM: `8.19.2`
 
 ## Setup
 
@@ -15,9 +22,6 @@ pnpm install
 
 # yarn
 yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -33,9 +37,6 @@ pnpm run dev
 
 # yarn
 yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -51,9 +52,6 @@ pnpm run build
 
 # yarn
 yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
@@ -67,9 +65,6 @@ pnpm run preview
 
 # yarn
 yarn preview
-
-# bun
-bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
