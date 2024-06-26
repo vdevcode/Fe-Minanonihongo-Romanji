@@ -304,6 +304,10 @@ declare module 'nuxt/schema' {
       npm_config_version_tag_prefix: string,
 
       NODE_ENV: string,
+
+      __NUXT_DEV__: string,
+
+      LAUNCH_EDITOR: string,
    },
   }
 }

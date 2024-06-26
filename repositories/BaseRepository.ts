@@ -16,11 +16,18 @@ export default class BaseRepository {
     return await http.post(this.resource, object, config)
   }
 
-  public async delete(id: string | number, config?: object): Promise<AxiosResponse> {
+  public async delete(
+    id: string | number,
+    config?: object,
+  ): Promise<AxiosResponse> {
     return await http.delete(`${this.resource}/${id}`, config)
   }
 
-  public async put(id: string | number, object: object, config?: object): Promise<AxiosResponse> {
+  public async put(
+    id: string | number,
+    object: object,
+    config?: object,
+  ): Promise<AxiosResponse> {
     return await http.put(`${this.resource}/${id}`, object, config)
   }
 

@@ -7,7 +7,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Adil Wallet Admin',
+      title: 'Minanonihongo Romanji',
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       htmlAttrs: { lang: 'en' },
@@ -22,7 +22,11 @@ export default defineNuxtConfig({
     [
       '@pinia/nuxt',
       {
-        autoImports: ['defineStore', ['defineStore', 'definePiniaStore'], 'acceptHMRUpdate'],
+        autoImports: [
+          'defineStore',
+          ['defineStore', 'definePiniaStore'],
+          'acceptHMRUpdate',
+        ],
       },
     ],
 
@@ -41,7 +45,14 @@ export default defineNuxtConfig({
     },
   },
 
-  build: { transpile: ['yup', 'lodash', '@vee-validate/rules', '@vuepic/vue-datepicker'] },
+  build: {
+    transpile: [
+      'yup',
+      'lodash',
+      '@vee-validate/rules',
+      '@vuepic/vue-datepicker',
+    ],
+  },
 
   runtimeConfig: {
     public: {
